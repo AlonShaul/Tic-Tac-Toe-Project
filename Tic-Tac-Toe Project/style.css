@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --black: #4c76ff;
+    --winning-blocks: #e4e4e4;
+    --draw-blocks: red;
+    
+}
+
+
+body {
+    color: var(--black);
+    font-family: 'Fredericka the Great', cursive;
+
+}
+
+
+h1 {
+    top: -15%;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+
+.container {
+    text-align: center;
+    padding: 40px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0, 0, 0, -0.5), rgba(0, 0, 0, -0.5)), url("21.jpg");
+    margin: 0;
+    background-size: cover;
+    background-position: center;  
+}
+
+
+#gameboard {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+
+.box {
+    opacity: 0.8;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--black);
+    font-size: 80px;
+    border-right: 4px solid;
+    border-bottom: 4px solid;
+}
+
+
+.box:nth-child(3n) {
+    border-right: none;
+}
+
+
+.box:nth-child(6) ~ .box {
+    border-bottom: none;
+} 
+
+
+.title{
+    text-align: center;
+    position: fixed;
+    transform: translate(-50%, -80%);
+    color: var(--black);
+    top:10%;
+    left:50%;
+
+}
+
+
+.restart {
+    text-align: center;
+    position: fixed;
+    transform: translate(-50%, -80%);
+    padding: 10px 16px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    color: var(--black);
+    background: #ffffff;
+    font-family: "Inter", sans-serif;
+
+    height: 30px;
+    width: 100px;
+    top:98%;
+    left:50%;
+    transition: color 1.5s;
+}
+
+
+.restart:hover {
+    transition: color 1.5s;
+    background-color: var(--black);
+    color: #ffffff;
+}
+
+
+.button1 {
+    text-align: center;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    padding: 10px 16px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    color: #4c76ff;
+    background: #ffffff;
+
+
+    height: 30px;
+    width: 100px;
+    top:85%;
+    left:50%;
+    transition: color 1.5s;
+}
+
+
+.button1:hover {
+    transition: color 1.5s;
+    background-color: #4c76ff;
+    color: #ffffff;
+}
+
+
+.para1 {
+    text-align: center;
+    position: fixed;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
+
+.turn{
+    text-align: center;
+    position: fixed;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+}
