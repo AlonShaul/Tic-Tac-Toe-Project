@@ -21,7 +21,7 @@ https://github.com/AlonShaul/Tic-Tac-Toe-Project.git
 <br>
 
 
-### Step 3: Open the file index.html from the folder and enjoy the game!:
+### Step 3: Open the file "index.html" from the folder and enjoy the game!:
 ```bash
 Good luck 🙂
 ```
