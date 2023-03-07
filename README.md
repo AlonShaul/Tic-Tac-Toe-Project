@@ -5,7 +5,6 @@
 I created a game called "Tic-Tac-Toe".<br>
 Tic-tac-toe is a game for two players who take turns marking the spaces in a three-by-three grid with X or O.<br>
 in placing three of their marks in a horizontal, vertical, or diagonal row is the winner.<br>
-Add a task, delete a task.<br>
 The application is built from CSS, HTML and JS languages
 <br><br>
 
