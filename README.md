@@ -5,7 +5,7 @@
 I created a game called "Tic-Tac-Toe".<br>
 Tic-tac-toe is a game for two players who take turns marking the spaces in a three-by-three grid with X or O.<br>
 in placing three of their marks in a horizontal, vertical, or diagonal row is the winner.<br>
-The application is built from CSS, HTML and JS languages
+The application is built from CSS, HTML and JS programming languages.
 <br><br>
 
 
@@ -21,11 +21,11 @@ https://github.com/AlonShaul/Tic-Tac-Toe-Project.git
 <br>
 
 
-### Step 3: Open the file "index.html" from the folder:
+### Step 3: Open the file "index.html" from the folder.
 <br>
 
 
-### Step 3: Enjoy the game!:
+### Step 4: Enjoy the game!:
 ```bash
 Good luck 🙂
 ```
